@@ -1,6 +1,5 @@
 ﻿using AppRpgEtec.Models;
 using AppRpgEtec.Services.Usuarios;
-using AuthenticationServices;
 using System.Windows.Input;
 using AppRpgEtec.Views.Usuarios;
 
@@ -101,7 +100,7 @@ public class UsuariosViewModels : BaseViewModels
                 await Application.Current.MainPage
                     .DisplayAlert("Informação", message, "Ok");
 
-                Application.Current.MainPage = new MainPage();
+                Application.Current.MainPage = new AppShell();
             }
             else
             {

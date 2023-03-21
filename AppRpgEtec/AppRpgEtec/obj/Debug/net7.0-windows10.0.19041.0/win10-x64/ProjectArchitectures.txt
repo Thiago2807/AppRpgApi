@@ -1,1 +1,1 @@
-C:\Users\Thiago da S. Roque\Desktop\RpgApp\AppRpgEtec\AppRpgEtec\AppRpgEtec.csproj;x64
+D:\Thiago_3DS\PMII\AppRpgApi\AppRpgEtec\AppRpgEtec\AppRpgEtec.csproj;x64

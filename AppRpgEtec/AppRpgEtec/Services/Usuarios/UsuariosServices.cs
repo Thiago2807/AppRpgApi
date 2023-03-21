@@ -1,4 +1,5 @@
 ﻿using AppRpgEtec.Models;
+using Microsoft.Maui.Controls.Shapes;
 
 namespace AppRpgEtec.Services.Usuarios;
 
@@ -6,6 +7,7 @@ public class UsuariosServices : Request
 {
     private readonly Request _request;
     private const string apiUriBase = "http://WebRpg.somee.com/RpgApi/Usuarios";
+    //private const string apiUriBase = "https://bsite.net/luizfernando987/Usuarios";
 
     public UsuariosServices ()
     {
@@ -17,7 +19,6 @@ public class UsuariosServices : Request
         const string urlComplementar = "/Registrar";
 
         u.Id = await _request.PostReturnIntAsync(apiUriBase + urlComplementar, u);
-
         return u;
     }
 
