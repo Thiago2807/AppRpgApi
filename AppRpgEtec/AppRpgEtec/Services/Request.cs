@@ -77,6 +77,7 @@ public class Request
 
         return result;
     }
+
     public async Task DeleteAsync(string uri, string token)
     {
         HttpClient httpClient = new HttpClient();
