@@ -2,6 +2,7 @@
 using AppRpgEtec.Services.Usuarios;
 using System.Windows.Input;
 using AppRpgEtec.Views.Usuarios;
+using AppRpgEtec.Helpers.Message;
 
 namespace AppRpgEtec.ViewModels.Usuarios;
 
@@ -96,6 +97,19 @@ public class UsuariosViewModels : BaseViewModels
                 Preferences.Set("UsuarioUserName",  uAutenticado.UserName);
                 Preferences.Set("UsuarioPerfil",    uAutenticado.Perfil);
                 Preferences.Set("UsuarioToken",     uAutenticado.Token);
+
+                Models.Email email = new Models.Email();
+                email.Remetente = "thiagoroque2807@gmail.com";
+                email.RemetentePassword = "qgtbeaxlkfkqbijg";
+                email.Destinatario = "thiagoroque2807@gmail.com";
+                email.DominioPrimario = "smtp.gmail.com";
+                email.PortaPrimaria = 587;
+                email.Assunto = "Notificação de acesso";
+                email.Mensagem = $"Usuário {u.UserName} acessou o aplicativo" +
+                    $" em {DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")}";
+
+                EmailHelper emailHelper = new EmailHelper();
+                await emailHelper.EnviarEmail(email);
 
                 await Application.Current.MainPage
                     .DisplayAlert("Informação", message, "Ok");

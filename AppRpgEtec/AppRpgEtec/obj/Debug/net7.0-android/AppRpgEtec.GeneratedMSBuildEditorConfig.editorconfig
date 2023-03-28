@@ -12,75 +12,75 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = AppRpgEtec
-build_property.ProjectDir = D:\Thiago_3DS\PMII\AppRpgApi\AppRpgEtec\AppRpgEtec\
+build_property.ProjectDir = D:\Thiago_3DS\PMII02\AppRpgApi\AppRpgEtec\AppRpgEtec\
 
-[D:/Thiago_3DS/PMII/AppRpgApi/AppRpgEtec/AppRpgEtec/AboutView.xaml]
+[D:/Thiago_3DS/PMII02/AppRpgApi/AppRpgEtec/AppRpgEtec/AboutView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.AboutView.xaml
 build_metadata.AdditionalFiles.TargetPath = AboutView.xaml
 build_metadata.AdditionalFiles.RelativePath = AboutView.xaml
 
-[D:/Thiago_3DS/PMII/AppRpgApi/AppRpgEtec/AppRpgEtec/App.xaml]
+[D:/Thiago_3DS/PMII02/AppRpgApi/AppRpgEtec/AppRpgEtec/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/Thiago_3DS/PMII/AppRpgApi/AppRpgEtec/AppRpgEtec/AppShell.xaml]
+[D:/Thiago_3DS/PMII02/AppRpgApi/AppRpgEtec/AppRpgEtec/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/Thiago_3DS/PMII/AppRpgApi/AppRpgEtec/AppRpgEtec/DescriptionView.xaml]
+[D:/Thiago_3DS/PMII02/AppRpgApi/AppRpgEtec/AppRpgEtec/DescriptionView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.DescriptionView.xaml
 build_metadata.AdditionalFiles.TargetPath = DescriptionView.xaml
 build_metadata.AdditionalFiles.RelativePath = DescriptionView.xaml
 
-[D:/Thiago_3DS/PMII/AppRpgApi/AppRpgEtec/AppRpgEtec/MainPage.xaml]
+[D:/Thiago_3DS/PMII02/AppRpgApi/AppRpgEtec/AppRpgEtec/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[D:/Thiago_3DS/PMII/AppRpgApi/AppRpgEtec/AppRpgEtec/Resources/Styles/Colors.xaml]
+[D:/Thiago_3DS/PMII02/AppRpgApi/AppRpgEtec/AppRpgEtec/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[D:/Thiago_3DS/PMII/AppRpgApi/AppRpgEtec/AppRpgEtec/Resources/Styles/Styles.xaml]
+[D:/Thiago_3DS/PMII02/AppRpgApi/AppRpgEtec/AppRpgEtec/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[D:/Thiago_3DS/PMII/AppRpgApi/AppRpgEtec/AppRpgEtec/Views/Disputas/ListagemView.xaml]
+[D:/Thiago_3DS/PMII02/AppRpgApi/AppRpgEtec/AppRpgEtec/Views/Disputas/ListagemView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Views.Disputas.ListagemView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Disputas\ListagemView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Disputas\ListagemView.xaml
 
-[D:/Thiago_3DS/PMII/AppRpgApi/AppRpgEtec/AppRpgEtec/Views/Personagens/ListagemView.xaml]
+[D:/Thiago_3DS/PMII02/AppRpgApi/AppRpgEtec/AppRpgEtec/Views/Personagens/ListagemView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Views.Personagens.ListagemView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Personagens\ListagemView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Personagens\ListagemView.xaml
 
-[D:/Thiago_3DS/PMII/AppRpgApi/AppRpgEtec/AppRpgEtec/Views/Usuarios/CadastroView.xaml]
+[D:/Thiago_3DS/PMII02/AppRpgApi/AppRpgEtec/AppRpgEtec/Views/Usuarios/CadastroView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Views.Usuarios.CadastroView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Usuarios\CadastroView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Usuarios\CadastroView.xaml
 
-[D:/Thiago_3DS/PMII/AppRpgApi/AppRpgEtec/AppRpgEtec/Views/Usuarios/ListagemView.xaml]
+[D:/Thiago_3DS/PMII02/AppRpgApi/AppRpgEtec/AppRpgEtec/Views/Usuarios/ListagemView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Views.Usuarios.ListagemView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Usuarios\ListagemView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Usuarios\ListagemView.xaml
 
-[D:/Thiago_3DS/PMII/AppRpgApi/AppRpgEtec/AppRpgEtec/Views/Usuarios/LoginView.xaml]
+[D:/Thiago_3DS/PMII02/AppRpgApi/AppRpgEtec/AppRpgEtec/Views/Usuarios/LoginView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppRpgEtec.Views.Usuarios.LoginView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Usuarios\LoginView.xaml
