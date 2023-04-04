@@ -303,6 +303,7 @@ namespace AppRpgEtec
 			global::Plugin.Media.Resource.Styleable.GradientColor_android_startY = global::AppRpgEtec.Resource.Styleable.GradientColor_android_startY;
 			global::Plugin.Media.Resource.Styleable.GradientColor_android_tileMode = global::AppRpgEtec.Resource.Styleable.GradientColor_android_tileMode;
 			global::Plugin.Media.Resource.Styleable.GradientColor_android_type = global::AppRpgEtec.Resource.Styleable.GradientColor_android_type;
+			global::Plugin.Media.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::AppRpgEtec.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::AppRpgEtec.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::AppRpgEtec.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::AppRpgEtec.Resource.Attribute.font;
@@ -524,6 +525,7 @@ namespace AppRpgEtec
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_startY = global::AppRpgEtec.Resource.Styleable.GradientColor_android_startY;
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_tileMode = global::AppRpgEtec.Resource.Styleable.GradientColor_android_tileMode;
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_type = global::AppRpgEtec.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Essentials.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::AppRpgEtec.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
 		}
 		
 		public partial class Animation
@@ -22793,10 +22795,16 @@ namespace AppRpgEtec
 		{
 			
 			// aapt resource value: 0x7F120000
-			public const int image_share_filepaths = 2131886080;
+			public const int file_paths = 2131886080;
 			
 			// aapt resource value: 0x7F120001
-			public const int microsoft_maui_essentials_fileprovider_file_paths = 2131886081;
+			public const int image_share_filepaths = 2131886081;
+			
+			// aapt resource value: 0x7F120002
+			public const int microsoft_maui_essentials_fileprovider_file_paths = 2131886082;
+			
+			// aapt resource value: 0x7F120003
+			public const int xamarin_essentials_fileprovider_file_paths = 2131886083;
 			
 			static Xml()
 			{
