@@ -7,7 +7,7 @@ namespace AppRpgEtec.ViewModels.Personagens;
 public class ListagemPersonagemViewModel : BaseViewModels
 {
     private PersonagemServices pServices;
-    private ObservableCollection<Personagem> Personagens { get; set; }
+    public ObservableCollection<Personagem> Personagens { get; set; }
 
     public ListagemPersonagemViewModel()
     {

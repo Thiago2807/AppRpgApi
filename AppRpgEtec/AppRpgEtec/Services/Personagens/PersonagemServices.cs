@@ -16,14 +16,14 @@ class PersonagemServices : Request
         _token = token;
     }
 
-    public async Task<Personagem> PostPersonagemAsync(Personagem p)
+    public async Task<int> PostPersonagemAsync(Personagem p)
     {
-        return await _request.PostAsync(apiUrlBase, p, _token);
+        return await _request.PostReturnIntTokenAsync(apiUrlBase, p, _token);
     }
 
     public async Task<ObservableCollection<Personagem>> GetPersonagensAsync()
     {
-        string urlComplementar = string.Format("{0}", "/GetAll");
+        string urlComplementar = "/GetAll";
         ObservableCollection<Models.Personagem> listaPersonagens = await
         _request.GetAsync<ObservableCollection<Models.Personagem>>(apiUrlBase + urlComplementar,
         _token);

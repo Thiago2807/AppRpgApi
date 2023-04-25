@@ -2,7 +2,7 @@
 
 namespace AppRpgEtec.Models;
 
-class Personagem
+public class Personagem
 {
     public int Id { get; set; }
     public string Nome { get; set; }
